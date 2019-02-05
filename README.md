@@ -1,2 +1,8 @@
-# query-cep
-Web Service to query cep in the Correio's API
+Adicionar as depêndencias:
+```xml
+<dependency>
+    <groupId>io.github.leobugoni</groupId>
+	<artifactId>query-cep</artifactId>
+	<version>latestVersion</version>
+</dependency>
+```

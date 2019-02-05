@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Configuration>
+	<Appenders>
+		<Console name="STDOUT" target="SYSTEM_OUT">
+			<PatternLayout>
+				<pattern>[%-5level] %d{HH:mm:ss.SSS} %c: %L - %msg%n</pattern>
+			</PatternLayout>
+		</Console>
+	</Appenders>
+  <Loggers>
+    <Logger name="org.apache.log4j.xml" level="WARN" />
+    <Logger name="io.github.leobugoni" level="WARN" />
+    <Logger name="br.com.caelum" level="WARN" />
+    <Logger name="org.hibernate" level="WARN" />
+    <Logger name="org.hibernate.SQL" level="WARN" />
+    <Logger name="org.hibernate.type" level="WARN" />
+    <Logger name="org.hibernate.hql.ast.AST" level="WARN" />
+    <Logger name="org.hibernate.tool.hbm2ddl" level="WARN" />
+    <Logger name="org.hibernate.hql" level="WARN" />
+    <Logger name="org.hibernate.cache" level="WARN" />
+    <Logger name="org.hibernate.jdbc" level="WARN" />
+    <Logger name="org.dbunit" level="WARN" />
+    <Logger name="org.liquibase" level="WARN" />
+    <Logger name="org.hsqldb" level="WARN" />
+    <Logger name="org.jboss.weld" level="WARN" />
+    <Logger name="br.com.caelum" level="WARN" />
+    <Logger name="br.com.caelum.vraptor" level="WARN" />
+    <Logger name="br.com.caelum.vraptor.http.route" level="INFO" />
+    <Root level="INFO">
+      <AppenderRef ref="STDOUT" />
+    </Root>
+    <Root level="WARN">
+      <AppenderRef ref="STDOUT" />
+    </Root>
+    <Root level="TRACE">
+      <AppenderRef ref="STDOUT" />
+    </Root>
+    <Root level="DEBUG">
+      <AppenderRef ref="STDOUT" />
+    </Root>
+    <Root level="ERROR">
+      <AppenderRef ref="STDOUT" />
+    </Root>
+  </Loggers>
+</Configuration>
