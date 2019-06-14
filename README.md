@@ -3,7 +3,7 @@
 Adicionar s depêndencia:
 ```xml
 <dependency>
-    <groupId>io.github.leobugoni</groupId>
+	<groupId>io.github.leobugoni</groupId>
 	<artifactId>query-cep</artifactId>
 	<version>latestVersion</version>
 </dependency>
